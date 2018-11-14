@@ -1,0 +1,10 @@
+﻿How to capture input combinations:
+Upper section: simply enter the number of dice of the specified value rolled
+Lower Section: 
+	Three and Four of a kind: Enter a comma seperated list of the three/four kind followed by the values of the remaining dice
+								e.g dice rolled 3 3 3 1 2 will be input to Three of a Kind as 3,1,2
+	Full House, Short/Long Straight, Yahtzee: enter 1 if the combination was rolled. The correct score will be displayed
+	Chance: enter the 5 die values as a comma seperated list e.g dice rolled 1 2 3 4 5 input as 1,2,3,4,5
+	Bonus Yahtzee: Simply enter 1 for each bonus Yahtzee. If 1 is entered but the Lower Section Yahtzee is still empty, 
+					it will be set and the bonus value will remain zero.
+To forfeit any combination simply enter a dash (-).
